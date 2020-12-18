@@ -27,7 +27,7 @@ def lettore():
 
 def scrittore():
     scrivi.acquire()
-    file = open("combinazioni.txt", "a")
+    file = open("lettura.txt", "a")
     file.write("lo scrittore ha scritto\n")
     file.close()
     scrivi.release()
